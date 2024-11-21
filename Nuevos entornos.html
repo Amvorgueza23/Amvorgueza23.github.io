@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevos entornos</title>
+    <link rel="stylesheet" href="HabilidadesCss.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Adaptabilidad</h1>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="Habilidades.html" style="color: white; text-decoration: none;">Inicio</a></li>
+            <li>Acerca de
+                <ul class="submenu">
+                    <li><a href="https://blog.formaciongerencial.com/competencias-universitarias-del-proyecto-tuning-america-latina/" download>Competencias</a></li>
+                    <li><a href="Habilidades2.html" style="color: white; text-decoration: none;">Autor</a></li>
+                </ul>
+            </li>
+            <li><a href="Nuevos entornos.html" style="color: white; text-decoration: none;">Adaptarse a nuevos entornos</a></li>
+            </li>
+            <li><li><a href="Nuevas ideas.html" style="color: white; text-decoration: none;">Crear nuevas ideas</a></li></li>
+        </ul>
+    </nav>
+    <main>
+        <p>La habilidad de adaptarse a nuevos entornos, según las competencias genéricas identificadas para América Latina, se refiere a la capacidad de ajustarse de manera efectiva y proactiva a cambios en contextos personales, académicos, sociales o laborales. Esto implica no solo sobrevivir al cambio, sino también aprovechar las oportunidades que presenta para aprender y crecer.</p>
+
+        <h2>Algunos aspectos clave de esta habilidad</h2>
+            <div class="collage">
+                <img src="Adapt 1.jpg" alt="Imagen 1" id="img1" onclick="showDescription('Flexibilidad cognitiva: la capacidad de reevaluar situaciones, replantear estrategias y aceptar nuevas perspectiva')">
+                <img src="Adapt 2.jpg" alt="Imagen 2" id="img2" onclick="showDescription('Manejo emocional: tolerar la incertidumbre, mantener la calma y gestionar el estrés asociado con lo desconocido.')">
+                <img src="Adapt 3.jpg" alt="Imagen 3" id="img3" onclick="showDescription('resiliencia: anticipar posibles cambios y mantenerse motivado y perseverante ante adversidades.')">
+            </div>
+        
+            <div id="description" class="description"></div>
+
+        <h2>¿Cómo ejercitar esta capacidad?</h2>
+
+        <div class="collage">
+            <img src="Adapt 4.jpg.crdownload" alt="Imagen 1" id="img1" onclick="showDescription('Exponte a la diversidad: Participa en actividades multiculturales o grupos diversos. Viaja a lugares desconocidos o experimenta nuevos estilos de vida.')">
+            <img src="Adapt 5.jpg" alt="Imagen 2" id="img2" onclick="showDescription('Ejercitar la curiosidad, hacer preguntas')">
+            <img src="Adapt 6.jpg" alt="Imagen 3" id="img3" onclick="showDescription('Prueba actividades fuera de tu zona de confort, como aprender un idioma o practicar un nuevo deporte..')">
+        </div>
+        <script>
+            function showDescription(text) {
+                document.getElementById('description').textContent = text;
+            }
+        </script>
+    </main>
+    <footer>
+        <p>© 2024 Mi Sitio Web</p>
+    </footer>
+</body>
+</html>
